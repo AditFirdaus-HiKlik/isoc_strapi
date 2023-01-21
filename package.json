@@ -9,22 +9,22 @@
     "build": "strapi build",
     "strapi": "strapi"
   },
-  "devDependencies": {},
   "dependencies": {
-    "@strapi/strapi": "4.5.6",
-    "@strapi/plugin-users-permissions": "4.5.6",
     "@strapi/plugin-i18n": "4.5.6",
-    "better-sqlite3": "7.4.6"
+    "@strapi/plugin-users-permissions": "4.5.6",
+    "@strapi/strapi": "4.5.6",
+    "better-sqlite3": "7.4.6",
+    "pg": "^8.8.0"
   },
   "author": {
     "name": "A Strapi developer"
   },
   "strapi": {
-    "uuid": "5decdf99-aceb-4c6c-a2a3-ecccdb883182"
+    "uuid": "72586e60-641e-48b3-901d-2c7154864014"
   },
   "engines": {
     "node": ">=14.19.1 <=18.x.x",
-    "npm": ">= 6.x.x"
+    "npm": ">=6.0.0"
   },
   "license": "MIT"
 }
