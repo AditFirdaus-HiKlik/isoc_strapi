@@ -9,7 +9,7 @@ module.exports = ({ env }) => ({
       database: env('DATABASE_NAME', 'strapi'),
       user: env('DATABASE_USERNAME', 'strapi'),
       password: env('DATABASE_PASSWORD', 'strapi'),
-      schema: env('DATABASE_SCHEMA', 'public'),
+      schema: env('DATABASE_SCHEMA', 'public'), // Not required
       ssl: {
         ca: env('DATABASE_CA', ''),
       },
