@@ -38,6 +38,12 @@
       "relation": "manyToMany",
       "target": "api::location.location",
       "inversedBy": "sports"
+    },
+    "streams": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::stream.stream",
+      "inversedBy": "sports"
     }
   }
 }

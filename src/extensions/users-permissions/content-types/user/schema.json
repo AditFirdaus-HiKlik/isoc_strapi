@@ -74,6 +74,38 @@
       "relation": "manyToMany",
       "target": "api::sport.sport",
       "mappedBy": "users"
+    },
+    "avatar": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "fullname": {
+      "type": "string"
+    },
+    "domicile": {
+      "type": "text"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "about": {
+      "type": "text"
+    },
+    "birth_date": {
+      "type": "date"
+    },
+    "social_line": {
+      "type": "string"
+    },
+    "social_instagram": {
+      "type": "string"
     }
   }
 }
