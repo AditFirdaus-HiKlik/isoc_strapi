@@ -17,4 +17,7 @@ module.exports = ({ env }) => ({
             },
         },
     },
+    'fast-content': {
+        enabled: true,
+    },
 })
