@@ -1,0 +1,50 @@
+{
+  "kind": "singleType",
+  "collectionName": "apps",
+  "info": {
+    "singularName": "app",
+    "pluralName": "apps",
+    "displayName": "App",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "update_caption": {
+      "type": "text"
+    },
+    "update_version": {
+      "type": "string"
+    },
+    "information_type": {
+      "type": "enumeration",
+      "enum": [
+        "info",
+        "warning",
+        "danger"
+      ]
+    },
+    "server_type": {
+      "type": "enumeration",
+      "enum": [
+        "normal",
+        "maintenance"
+      ]
+    },
+    "update_type": {
+      "type": "enumeration",
+      "enum": [
+        "normal",
+        "force"
+      ]
+    },
+    "server_caption": {
+      "type": "text"
+    },
+    "information_caption": {
+      "type": "text"
+    }
+  }
+}

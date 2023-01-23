@@ -1,0 +1,49 @@
+{
+  "kind": "collectionType",
+  "collectionName": "events",
+  "info": {
+    "singularName": "event",
+    "pluralName": "events",
+    "displayName": "Event"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "datetime": {
+      "type": "date"
+    },
+    "sports": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::sport.sport",
+      "mappedBy": "events"
+    },
+    "type": {
+      "type": "string"
+    },
+    "address": {
+      "type": "text"
+    },
+    "cover_image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "contact_name": {
+      "type": "string"
+    },
+    "contact_number": {
+      "type": "string"
+    }
+  }
+}

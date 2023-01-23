@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "locations",
+  "info": {
+    "singularName": "location",
+    "pluralName": "locations",
+    "displayName": "Location"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "sports": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::sport.sport",
+      "mappedBy": "locations"
+    },
+    "address": {
+      "type": "text"
+    },
+    "contact_name": {
+      "type": "string"
+    },
+    "contact_number": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

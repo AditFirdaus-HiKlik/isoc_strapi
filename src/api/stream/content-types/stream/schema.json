@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "streams",
+  "info": {
+    "singularName": "stream",
+    "pluralName": "streams",
+    "displayName": "Stream",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "url": {
+      "type": "string"
+    },
+    "sport": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::sport.sport"
+    }
+  }
+}
