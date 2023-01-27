@@ -13,6 +13,7 @@
     "@strapi/plugin-graphql": "^4.6.0",
     "@strapi/plugin-i18n": "4.6.0",
     "@strapi/plugin-users-permissions": "4.6.0",
+    "@strapi/provider-email-nodemailer": "^4.6.0",
     "@strapi/provider-upload-aws-s3": "^4.6.0",
     "@strapi/strapi": "4.6.0",
     "better-sqlite3": "7.4.6",
@@ -27,7 +28,7 @@
     "uuid": "5547691c-b0dd-4f6f-82ad-3f59dd79c688"
   },
   "engines": {
-    "node": ">=14.19.1 <=16.x.x",
+    "node": ">=14.19.1 <=18.x.x",
     "npm": ">=6.0.0"
   },
   "license": "MIT"
