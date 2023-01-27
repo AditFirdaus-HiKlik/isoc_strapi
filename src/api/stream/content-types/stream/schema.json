@@ -21,11 +21,6 @@
     "url": {
       "type": "string"
     },
-    "sport": {
-      "type": "relation",
-      "relation": "oneToOne",
-      "target": "api::sport.sport"
-    },
     "sports": {
       "type": "relation",
       "relation": "manyToMany",
