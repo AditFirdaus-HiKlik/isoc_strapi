@@ -80,10 +80,7 @@
       "multiple": false,
       "required": false,
       "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
+        "images"
       ]
     },
     "fullname": {
@@ -98,17 +95,14 @@
     "about": {
       "type": "text"
     },
-    "birth_date": {
+    "birthDate": {
       "type": "date"
     },
-    "social_line": {
+    "accountLine": {
       "type": "string"
     },
-    "social_instagram": {
+    "accountInstagram": {
       "type": "string"
-    },
-    "subscribed": {
-      "type": "boolean"
     }
   }
 }

@@ -21,15 +21,12 @@
     "author": {
       "type": "string"
     },
-    "cover_image": {
+    "images": {
       "type": "media",
-      "multiple": false,
+      "multiple": true,
       "required": false,
       "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
+        "images"
       ]
     },
     "body": {

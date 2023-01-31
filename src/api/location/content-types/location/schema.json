@@ -24,10 +24,10 @@
     "address": {
       "type": "text"
     },
-    "contact_name": {
+    "contactName": {
       "type": "string"
     },
-    "contact_number": {
+    "contactNumber": {
       "type": "string"
     },
     "link": {
