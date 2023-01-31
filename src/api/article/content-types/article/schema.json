@@ -21,9 +21,9 @@
     "author": {
       "type": "string"
     },
-    "images": {
+    "coverImage": {
       "type": "media",
-      "multiple": true,
+      "multiple": false,
       "required": false,
       "allowedTypes": [
         "images"
