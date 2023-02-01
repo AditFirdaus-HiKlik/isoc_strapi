@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_user_user_achivements",
+  "info": {
+    "displayName": "Achivement",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "body": {
+      "type": "richtext"
+    }
+  }
+}

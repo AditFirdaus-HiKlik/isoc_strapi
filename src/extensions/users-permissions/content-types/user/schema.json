@@ -104,13 +104,15 @@
     "accountInstagram": {
       "type": "string"
     },
+    "achivements": {
+      "type": "component",
+      "repeatable": true,
+      "component": "user.user-achivement"
+    },
     "gallery": {
-      "type": "media",
-      "multiple": true,
-      "required": false,
-      "allowedTypes": [
-        "images"
-      ]
+      "type": "component",
+      "repeatable": true,
+      "component": "user.image"
     }
   }
 }
